@@ -34,7 +34,7 @@
 # will skip the installation of TensorFlow.
 export DV_USE_PREINSTALLED_TF="${DV_USE_PREINSTALLED_TF:-0}"
 
-export TF_NEED_GCP=1
+export TF_NEED_GCP=0
 
 export CUDNN_INSTALL_PATH="/usr/lib/x86_64-linux-gnu"
 

@@ -44,7 +44,7 @@ http_archive(
 # Import tensorflow.  Note path.
 local_repository(
     name = "org_tensorflow",
-    path = "../tensorflow",
+    path = "./tensorflow",
 )
 
 # Required boilerplate for tf_workspace().
